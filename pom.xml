@@ -29,6 +29,12 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+   		<repository>
+      		<id>my-deployment</id>
+      		<url>http://13.234.31.50:8081/repository/my-deployment/</url>
+   		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
